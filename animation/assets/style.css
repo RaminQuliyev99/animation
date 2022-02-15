@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#bag{
+    height: 655px;
+    width: 1349px;
+    background-image: url(./images/sea.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    position: relative;
+    overflow: hidden;
+}
+#sun{
+    height: 150px;
+    width: 150px;
+    background-image: url(./images/sun1.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+
+    
+}
+#cloud{
+    height: 200px;
+    width: 1400px;
+    background-image: url(./images/cloud.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    position: absolute;
+}
+
+#fisher{
+    height: 100px;
+    width: 100px;
+    background-image: url(./images/fisher.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    display: block;
+    right: 100px;
+    bottom: 350px;
+}
+#sit{
+    height: 100px;
+    width: 100px;
+    background-image: url(./images/sit.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    display: block;
+    left: 100px;
+    bottom: 40px;
+}
+
+#bird1{
+    height: 50px;
+    width: 50px;
+    background-image: url(./images/bird.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    display: block;
+    left:20px;
+    top: 150px;
+    animation-name: bird1 ;
+    animation-duration: 40s;
+    animation-delay: 1ms;
+    animation-fill-mode: forwards;
+  
+}
+#bird2{
+    height: 50px;
+    width: 50px;
+    background-image: url(./images/bird.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    display: block;
+    left:60px;
+    top: 200px;
+    animation-name: bird2 ;
+    animation-duration: 20s;
+    animation-delay: 1ms;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+   
+  
+}
+
+@keyframes bird1 {
+    from{
+        left: -200px;
+    }
+    to{
+        left: 700px;
+    }
+}
+@keyframes bird2 {
+    from{
+        left: -200px;
+    }
+    to{
+        left: 700px;
+    }
+}
